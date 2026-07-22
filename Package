@@ -1,0 +1,30 @@
+# a) 
+# def list_length(list):
+#     print("length of the list:",len(list))
+# def max_min(list):
+#     print("maximum element:",max(list))
+#     print("minimum element:",min(list))
+# def sum_average (list):
+#     total=sum(list)
+#     average=total/len(list)
+#     print("sum:",total)
+#     print("average:",average)
+# def reverse_list(list):
+#     print("reversed list:",list[::-1]) 
+
+# b) 
+
+# def remove_duplicates(lst):
+#     print("list without duplicates:",list(set(lst)))
+# def second_largest(lst):
+#     unique=list(set(lst))
+#     unique.sort()
+#     print("second largest element:",unique[-2])
+# def search_element(lst,element):
+#     if element in lst:
+#         print(element,"exists in the list")
+#     else:
+#         print(element,"does not exists in the list")
+# def sort_list(lst):
+#     print("Ascending order:",sorted(lst))
+#     print("Descending order:",sorted(lst,reverse=true))

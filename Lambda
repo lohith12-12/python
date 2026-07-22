@@ -1,0 +1,75 @@
+# num=[1,2,3,4,5]
+# squared=[x**2 for x in num]
+# print("squared numbers:",squared)
+
+# 2) 
+# name=["john","alice","bob","emma"]
+# uppercase_name=[name.upper() for name in name]
+# print("uppercase_name:",uppercase_name)
+
+# 3) 
+# nums=[10,15,20,25,30,35]
+# even_nums=[num for num in nums if num%2==0]
+# print("even numbers:",even_nums) 
+
+# 4) 
+# num=[1,2,3,4,5,6,7]
+# odd_nums=[num for num in num if num% 2!=0]
+# print("odd numbers:",odd_nums) 
+
+# 5) 
+# nums=[5,10,15,20]
+# total=sum(nums)
+# print("sum:",total) 
+
+# 6) 
+# nums=[1,2,3,4,5,6,7]
+# cube_even=[nums**3 for nums in nums if nums % 2 == 0]
+# print("cube of even numbers:",cube_even) 
+
+# 7) 
+# num=[2,3,4,5]
+# product=1
+# for num in num:
+#     product *=num 
+#     print("product:",product) 
+
+# 8)
+# words=["Apple","Banana","Avocado","Orange","Apricot"]
+# a_words=[word for word in words if word.startswith("A")]
+# print("word starting with'A':",a_words) 
+
+# 9) 
+# marks=[45,62,78,59,90]
+# updated_marks=[mark+10 if mark> 60 else mark for mark in marks]
+# print("updated marks:",updated_marks) 
+
+# 10) 
+# nums=[45,12,89,23,90,67]
+# largest=max(nums)
+# print("largest number:",largest) 
+
+# 11) 
+# num=[1,2,3,4,5,6,7,8,9]
+# result=sum(num**2 for num in num if num % 2 !=0)
+# print("sum of squares of odd numbers:",result) 
+
+# 12) 
+# words=["python","java","c","javascript","macheinlearing"]
+# longest=max(words,key=len)
+# print("longest word:",longest) 
+
+# 13) 
+# salary=[30000,52000,45000,70000,90000]
+# updated_salary=list(map(lambda x:x*1.20 if x > 50000 else x, salary))
+# total_salary = reduce(lambda a,b,:a+b,updated_salary)
+# print("updated salaries:",updated_salary)
+# print("total salary after bonus:",total_salary) 
+
+# 14) 
+# nums=[-5,10,-3,20,30,-2,40]
+# positive_nums=list(filter(lambda x:x>=0,nums))
+# average=sum(positive_nums)/len(positive_nums)
+# print("positive numbers:",positive_nums)
+# print("average:",average) 
+
